@@ -20,6 +20,12 @@ import java,util.Scanner;
 				   
 					case '2' : System.exit(0);
 				   		   break;
+				   	case '3' : System.out.print("Enter Two number :")
+				   		   a = scan.nextFloat();
+				      		   b = scan.nextFloat();
+				   		   res = a-b;
+				   		   System.out.print("Result =" - res);
+				   		   break;
 				   
 					default : System.out.print("INVALID CHOICE !!!");
 				   		  break;
@@ -34,3 +40,4 @@ import java,util.Scanner;
 		
 	
 	}
+	
